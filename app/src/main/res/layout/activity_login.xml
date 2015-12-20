@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_vertical|center_horizontal"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:background="@color/btn_bg"
+    tools:context="com.cleannation.app.Login">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center_horizontal|center_vertical" >
+
+        <TextView
+            android:id="@+id/txtusername"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Username"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtusername"
+            android:inputType="text"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/txtpassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/username"
+            android:text="@string/Password"
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtpassword"
+            android:inputType="textPassword"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="18dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/signup"
+                android:layout_width="0dip"
+                android:layout_weight="0.3"
+                android:layout_height="wrap_content"
+                app:layout_widthPercent="30%"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="4dp"
+                android:background="@color/txt_font"
+                android:layout_below="@+id/login"
+                android:text="@string/SignupBtn" />
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="0dip"
+                android:layout_weight="0.3"
+                android:layout_height="wrap_content"
+                app:layout_widthPercent="30%"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="4dp"
+                android:background="@color/txt_font"
+                android:layout_below="@+id/password"
+                android:text="@string/LoginBtn" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

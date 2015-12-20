@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/btn_bg"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:weightSum="1"
+    >
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <!-- To display picture taken -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="270dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp" >
+
+                <ImageView
+                    android:id="@+id/imgPreview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:visibility="visible"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    />
+
+            </LinearLayout>
+
+            <!-- Videoview to preview recorded video -->
+
+
+            <EditText
+                android:layout_width="282dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText2"
+                android:layout_gravity="center_horizontal"
+                android:hint="Enter your comments"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:backgroundTint="#ff060202" />
+
+
+
+            <!--<Spinner-->
+                <!--android:layout_width="367dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/spinner"-->
+                <!--android:textColor="#000"-->
+                <!--android:layout_weight="0.13" />-->
+
+            <Button
+                android:id="@+id/cnfrm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:text="CONFIRM"
+                android:textColor="@color/white"
+                android:layout_marginBottom="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

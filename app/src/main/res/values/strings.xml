@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clean Nation</string>
+    <string name="title_activity_home">Home</string>
+    <string name="home_card1">Create a new Meetup</string>
+    <string name="home_card2">Spot Viewer</string>
+    <string name="home_card3">View all Meetups</string>
+    <string name="home_toolbar">Clean Nation</string>
+
+    <string name="title_activity_spot_view">Spot Viewer</string>
+    
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_spot_content">SpotContent</string>
+
+    <string name="title_activity_click">Click</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_preview">Preview</string>
+    <string name="title_activity_success">success</string>
+
+    <string name="tutorial_screen1">Report</string>
+    <string name="tutorial_screen1_lite">Capture and report untidy places nearby...</string>
+    <string name="tutorial_screen2">Look Around</string>
+    <string name="tutorial_screen2_lite">...or find out such places around you</string>
+    <string name="tutorial_screen3">People to the Rescue</string>
+    <string name="tutorial_screen3_lite">Clean it up and help your neighbourhood to be clean and therefore India</string>
+
+    <string name="title_activity_login">Sign In</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="LoginBtn">Sign In</string>
+    <string name="SignupBtn">Sign Up</string>
+
+    <string name="logout">Logout</string>
+
+    <string name="transition_name_name">transition:NAME</string>
+    <string name="transition_name_circle">transition:CIRCLE</string>
+    <string name="transition_name_phone">transition:PHONE</string>
+    <string name="title_activity_profile">profile</string>
+    <string name="home_card4">My Profile</string>
+
+</resources>
